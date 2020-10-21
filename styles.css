@@ -7,7 +7,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  tranform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .popup{
@@ -27,7 +27,7 @@ top: -200%;
 }
 
 .popup .active {
-  opcacity: 1;
+  opacity: 1;
   top: 50%;
   transform: translate (-50%, -50%) scale (1);
   transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
@@ -60,8 +60,7 @@ font-weight: 500;
 
 color: darkgreen;
 font-size: 20px;
-padding: 10px;
-
+padding: 10px;  
 }
 
 .popup .dismiss-btn {
@@ -72,7 +71,6 @@ margin-top: 15px;
 .popup .dismiss-btn button {
 padding: 10px 20px;
 background: grey;
-font-color: white;
 border: 2px solid black;
 font-size: 12px;
 font-weight: 400;
@@ -99,7 +97,6 @@ cursor: pointer;
 .popup.active.icon {
 transition: all 300ms ease-in-out 200ms;
 }
-
 popup.active.title {
 transition: all 300ms ease-in-out 250ms;
 
@@ -109,7 +106,6 @@ popup.active.description {
 transition: all 300ms ease-in-out 300ms;
 
 }
-
 
 popup.active.dismiss-btn {
 transition: all 300ms ease-in-out 350ms;
